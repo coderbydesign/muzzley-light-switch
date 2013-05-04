@@ -1,4 +1,4 @@
-muzzley-light-switch
+Muzzley Light Switch
 ====================
 
-Light switch using Muzzley
+Light switch experiment using Muzzley
