@@ -46,7 +46,7 @@ muzzley.connectApp(myAppToken, function(err, activity) {
     // A participant joined. Tell him to transform into a gamepad.
     participant.changeWidget(
       'switch',
-      {'isOn': 1},
+      {'isOn': 0},
       function(err) {
         if (err) return console.log('changeWidget error: ' + err);
         console.log('Activity: changeWidget was successful');
